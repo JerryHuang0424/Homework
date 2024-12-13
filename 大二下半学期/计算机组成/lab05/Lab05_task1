@@ -1,0 +1,7 @@
+.data
+arr1: .word 5:20
+arr2: .half 7,-2,8,-6
+arr3: .space 100
+atr1: .asciiz "The is a meeage"
+str2: .asciiz "Another important string"
+

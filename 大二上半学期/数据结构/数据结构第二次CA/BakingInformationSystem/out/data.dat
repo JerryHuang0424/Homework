@@ -1,0 +1,23 @@
+BAKEDGOOD,Bread,china,This is a bread ,C:\Users\黄家睿\Documents\QQ图片20210823183243.jpg
+BAKEDGOOD,金丝虾球,Liyue,油炸而成的虾料理。乍一闻香气扑鼻，酥脆的土豆中透出虾肉的甘甜。配合小巧可爱的外形，令人食指大动。,C:\Users\黄家睿\Pictures\原神食物图片\2.jpg
+INGREDIENT,egg,null,50.0
+INGREDIENT,chicken,From pig,50.0
+INGREDIENT,onion,onion,20.0
+INGREDIENT,potato,null,30.0
+INGREDIENT,shell fresh shrimp,null,50.0
+INGREDIENT,tomato,null,20.0
+INGREDIENT,wheat,wheat,10.0
+RECIPE,渔人吐司,160.0
+wheat,3.0
+potato,3.0
+onion,2.0
+
+RECIPE,金丝虾球,320.0
+potato,4.0
+shell fresh shrimp,4.0
+
+RECIPE,Bread,410.0
+potato,2.0
+chicken,3.0
+egg,4.0
+
