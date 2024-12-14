@@ -1,80 +1,24 @@
-# <center>RC Circuit measurement</center>
-<center>Jiarui Huang(黄家睿)</center>
+# <center>Operational Amplifiers</center>
+<center>Jairui Huang(黄家睿)</center>
 <center>202283890036</center>
 
-## Lab content
-1. Set the voltage output from the function (signal generator) to be approximately 2V. (Use CRO)
-2. Set the frequency of the function generator to 1 kHz (Use CRO)
-3. Choose appropriate R and C values for the circuit.
-4. Measure and record the peak values of VS, VR and VC in table 1.
-5. Measure and record the time lag tR and tC, with the total voltage as a reference value, in table 1. Note whether this value is positive or negative.
-6. Repeat the measurements at a frequency of 5 kHz and record the values in table 1.
+## Introduction and Aim
+In this lab, we will use the 741 operational amplifier (op-amp) to demonstrate its versatility in various electronic applications. The 741 op-amp is one of the most widely used op-amps due to its reliability and ease of use in both analog signal processing and control systems. Throughout the experiment, we will explore its fundamental properties and characteristics, such as voltage gain, input impedance, and output voltage swing.
 
 ## Theory
-An RC circuit is a basic circuit unit composed of a resistor R and a capacitor C , used for signal processing, filtering, time delay, etc. 
-### 1.Time Constant$\tau$
-The time constant describes the dynamic response of an RC circuit and is defined as: 
-$\tau = R \times C$
 
-### 2. Cutoff Frequency$f_c$
-For an RC filter, the cutoff frequency is the frequency where the circuit starts to significantly attenuate the signal, defined as:  
-$$
-f_c = \frac{1}{2\pi RC}
-$$
-Low-pass filter:$f \leq f_c$will pass through, while signals with $f \geq f_c$will be attenuated.
-High-pass filter:$f \geq f_c$will pass through, while signals with$f \leq f_c$will be attenuated.
+## Experimental Method and Result
+The 741 Operational Amplifier (opamp) is a high gain voltage amplifier. The inputs to the amplifier consist of 𝑉+ (non-inverting input) and 
+a 𝑉− (inverting input). 
+The main properties of the 741 op amp are:
+* High open-loop gain: $𝐴_𝑜 ≈ 2 × 105$
+* Unity gain bandwidth: $𝐵 ≈ 2 × 106 Hz$
+* High input impedance: $𝑍_𝑖 ≈ 106 Ω$
+* Low output impedance: $𝑍_𝑜 ≈ 100 Ω$
 
-### 3.Impedance 
-In AC circuits, the total impedance of an RC circuit is the combination of the resistance R and the capacitive reactance $X_C$ :  
-$$
-Z_T = Z_R + Z_C = R\angle0 \omega + X_C\angle - 90 \omega = R - jX_C
-$$
-​
-### 4.Voltage-Related Parameters
-#### 4.1Power Supply Voltage $V_S
-This is the input voltage provided to the circuit, typically supplied by a signal generator or a DC power source. $V_S$ is a known external parameter. $V_s$is a known external parameter.
-#### 4.2Voltage Across the Resistor $V_R$
-According to Ohm's law, the voltage across the resistor is:
-$$
-V_R=I \cdot R
-$$
-where 𝐼 is the current in the circuit and 𝑅 is the resistance.
-#### 4.3 Voltage Across the Capacitor $V_C$
-The voltage across the capacitor depends on its charging or discharging state:
-During charging:
-$$
-V_C(t)=V_S \cdot (1-e^\frac{-t}{\tau})
-$$
-During discharging:
-$$
-V_C(t)=V_c0 \cdot e^\frac{-t}{\tau}
-$$
-Here, $\tau=R \cdot C$ is the time constant, and $v_C0$ is the initial voltage.
+### part1
+In this part, 我们建立了一个基本的放大电路，使用 12V 直流电源，为运算放大器供电：将正极接到引脚 7，负极接到引脚 4，并将运算放大器连接为开环配置，并使用直流电源提供 +5V，同时适当接地电路。
+接着，我们会测量$V_cc+$和$V_cc-$的电压值，记录正向电压的值。
+然后，我们把输入电源变为-5，比较正极电压值，$V_cc+$和$V_cc-$的不同。
 
-#### Time Period 𝑇 and Frequency 𝑓
-If the circuit uses an AC power source, the time period and frequency are determined by the input signal:
-Time Period:
-$$
-T=\frac{1}{f}
-$$
-Frequency:
-$$
-f=\frac{1}{T}
-$$
-The input signal can be a sine wave, square wave, or other waveforms, with its frequency set by the signal generator.
-
-
-## Circiut Diagram
-!["circuit diagram"](../Lab_picture/Lab2_part1_circuit_diagram.png)
-!["signal diagram"](../Lab_picture/Lab2_part1_Cro_signal_Resis.png)
-!["signal diagram](../Lab_picture/Lab2_part1_CRO_signal1.png)
-
-## Data Table
-| $V_S (V)$ | $V_R (V)$ | $V_C (V)$ | $\tau_R$ | $\tau_C$ | $T (ms)$ | $f (Hz)$ |
-|-----------|-----------|-----------|----------|----------|----------|----------|
-|    2V     |  1.26V    |    2V     |   0.1ms  |   0.1ms  |   1ms    |   1kHz   |
-|    2V     |  605mV    |    2V     |   0.1ms  |   0.1ms  |   0.2ms  |   5kHz   |
-
-
-
-
+#### circiut Diagram
