@@ -76,6 +76,7 @@ def CPO(pop_size, Tmax, ub, lb, dim, func_num):
     Xp = np.copy(X)
     opt = 0
     t = 0
+    best_buffer = 0
 
     while t < Tmax and Gb_Fit > opt:
         diversity_history.append(np.std(fitness))
@@ -116,11 +117,12 @@ def CPO(pop_size, Tmax, ub, lb, dim, func_num):
                 if nF <= Gb_Fit:
                     Gb_Sol = X[i, :]
                     Gb_Fit = nF
+                    best_buffer = t
 
         Conv_curve[t] = Gb_Fit
         t += 1
 
-    return Gb_Fit, Gb_Sol, Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim
+    return Gb_Fit, Gb_Sol, Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim, best_buffer
 
 # 数据平滑函数
 def smooth_data(data, window_size=5):
@@ -171,8 +173,8 @@ def plot_results(Conv_curve, diversity_history, avg_fitness_history, trajectory_
     plt.show()
 
 # 运行实验
-def run_experiments(func_num=1, dim=10, pop_size=50, Tmax=500, ub=100, lb=-100):
-    Gb_Fit, Gb_Sol, Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim = CPO(
+def run_experiments(func_num=1, dim=10, pop_size=200, Tmax=500, ub=100, lb=-100):
+    Gb_Fit, Gb_Sol, Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim, best_buffer = CPO(
         pop_size, Tmax, ub, lb, dim, func_num
     )
 
@@ -182,6 +184,7 @@ def run_experiments(func_num=1, dim=10, pop_size=50, Tmax=500, ub=100, lb=-100):
     print(f"Mean Diversity: {np.mean(diversity_history):.2e}")
     print(f"Mean Average Fitness: {np.mean(avg_fitness_history):.2e}")
     print(f"Trajectory in 1st Dimension (final position): {trajectory_1st_dim[-1]:.2e}")
+    print(f"The time get the best solution is：{best_buffer}")
 
     # 可视化结果
     plot_results(Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim)
@@ -190,6 +193,27 @@ def run_experiments(func_num=1, dim=10, pop_size=50, Tmax=500, ub=100, lb=-100):
 # for func_num in range(1, 10):
 #     print(f"Running Function F{func_num}...")
 #     run_experiments(func_num)
+
+# run_experiments(8)
+import time
+itera = 5
+best_arr =np.zeros(itera)
+best_time = np.zeros(itera)
+getBest_time = np.zeros(itera)
+for i in range(itera):
+    begin_time = time.time()
+    Gb_Fit, Gb_Sol, Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim, best_buffer = CPO(pop_size=200, Tmax = 500, ub = 100, lb = -100, dim = 10, func_num = 8)
+    end_time = time.time()
+    best_time[i] =end_time - begin_time
+    best_arr[i] = Gb_Fit
+    getBest_time[i] =best_buffer
+    plot_results(Conv_curve, diversity_history, avg_fitness_history, trajectory_1st_dim)
+
+print(best_arr)
+print(best_time)
+print(getBest_time)
+
+
 
 
 
