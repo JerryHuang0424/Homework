@@ -53,3 +53,10 @@ be approximately [specific value] kHz.
 <div style="text-align: center;">
     <img src="../Lab_picture/Lab7_diagram.png" alt="Signa Diagram" width="400" />
 </div>
+
+## Conclusion
+The experiment successfully characterized the frequency response of a 100x gain
+amplifier. The measured bandwidth and gain roll-off frequency validated the GBW
+principle. Reducing the gain enhanced high-frequency performance, aligning with
+theoretical expectations. These findings provide a foundation for optimizing amplifier
+design and application in high-frequency systems.

@@ -61,3 +61,7 @@ to $𝑉_cc$
 
 ![](../Lab_picture/Lab6_Vin&VoutDiagram.png)
 
+## Conclusion
+Through the design and offset nulling of the 40 dB non-inverting amplifier, a precise
+amplification circuit was achieved. The understanding of gain control and offset compensation techniques for the 741 operational amplifier was deepened. The experiments
+highlighted the importance of considering component non-idealities and provided strategies for improving circuit performance in practical applications.
