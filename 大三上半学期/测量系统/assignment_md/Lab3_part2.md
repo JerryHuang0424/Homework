@@ -18,29 +18,29 @@ generally preferred. The goal of part 1 of the practical is to produce a noisy
 signal which will be filtered using both a first and second order active filter.
 
 ## Experiment Method and Results
-## 3. Experimental Method and Results
-### 3.1 Generate a high frequency signal to approximate noise
+## Experimental Method and Results
+### 1.Generate a high frequency signal to approximate noise
 Set the function generator to produce a sine wave of frequency 5 kHz and 
 5 Vpp,the diagram is showed below:
 <div style="text-align: center;">
     <img src="../Lab_picture/Lab8_sincSingalWithData.png" alt="Signal Diagram" width="400" />
 </div>
 
-### 3.2 Generate a clean sigal
+### 2.Generate a clean sigal
 
 Set the second function generator to produce noise signal of l of 1 kHz and 2 Vpp.
 <div style="text-align: center;">
     <img src="../Lab_picture/Lab9_singal2.png" alt="Signal Diagram" width="400" />
 </div>
 
-### The signal output of the two signal
+### 3.The signal output of the two signal
 
 The original signal by the two function gerenated is showed in the diagram:
 <div style="text-align: center;">
     <img src="../Lab_picture/Lab9_signal_diagram.png" alt="Signal Diagram" width="400" />
 </div>
 
-### The signal summing after deal
+### 4.The signal summing after deal
 
 Using a summing amplifier design and implement the addition of the noise to 
 the clean signal to produce a noisy signal.

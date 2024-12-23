@@ -2,13 +2,15 @@
 <center>Jiarui Huang(黄家睿)</center>
 <center>202283890036</center>
 
-## Lab content
-1. Set the voltage output from the function (signal generator) to be approximately 2V. (Use CRO)
-2. Set the frequency of the function generator to 1 kHz (Use CRO)
-3. Choose appropriate R and C values for the circuit.
-4. Measure and record the peak values of VS, VR and VC in table 1.
-5. Measure and record the time lag tR and tC, with the total voltage as a reference value, in table 1. Note whether this value is positive or negative.
-6. Repeat the measurements at a frequency of 5 kHz and record the values in table 1.
+## Introduction and Aim
+This experiment explores the behaviour of a simple RC (Resistor-Capacitor) circuit and 
+understand its response to changes in input voltage. To achieve this, we will use a linear 
+potentiometer as a variable resistor in the circuit.
+A potentiometer, oBen referred to as a pot, is a three-terminal resistor with an adjustable tap 
+that allows us to change the resistance value along its length. In this experiment, we will utilize 
+a linear poten@ometer to vary the resistance in the RC circuit. By adjusting the potentiometer, 
+we can control the rate at which the capacitor charges and discharges, thus influencing the 
+time constant and the behaviour of the circuit.
 
 ## Theory
 An RC circuit is a basic circuit unit composed of a resistor R and a capacitor C , used for signal processing, filtering, time delay, etc. 
@@ -65,9 +67,15 @@ The input signal can be a sine wave, square wave, or other waveforms, with its f
 
 
 ## Circiut Diagram
-!["circuit diagram"](../Lab_picture/Lab2_part1_circuit_diagram.png)
-!["signal diagram"](../Lab_picture/Lab2_part1_Cro_signal_Resis.png)
-!["signal diagram](../Lab_picture/Lab2_part1_CRO_signal1.png)
+<div style="text-align: center;">
+    <img src="../Lab_picture/Lab2_part1_circuit_diagram.png" alt="Signal Diagram" width="400" />
+</div>
+<div style="text-align: center;">
+    <img src="../Lab_picture/Lab2_part1_Cro_signal_Resis.png" alt="Signal Diagram" width="400" />
+</div>
+<div style="text-align: center;">
+    <img src="../Lab_picture/Lab2_part1_CRO_signal1.png" alt="Signal Diagram" width="400" />
+</div>
 
 ## Data Table
 | $V_S (V)$ | $V_R (V)$ | $V_C (V)$ | $\tau_R$ | $\tau_C$ | $T (ms)$ | $f (Hz)$ |

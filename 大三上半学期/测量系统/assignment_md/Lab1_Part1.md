@@ -2,19 +2,23 @@
 <center>Jairui Huang(黄家睿)</center>
 <center>202283890036</center>
 
-## Lab content
-1. Set up the circuit shown above in Multisim, using an AC source providing 5V signal at a frequency of 1 kHz.
-2. Add voltage probes to examine the peak-to-peak voltage across the potentometer Vp, and across the capacitor Vc. Set each probe to Periodic measurement label to display 
-peak-to-peak voltages.
-3. Place a reference pin on the negative side of each component, and set each voltage probe to the appropriate reference.
-4. Start the simulation in Interactive mode, and ensure that it is behaving correctly.
-5. Similar to Part 1, starting with the potentiometer at 0.5% (full left), take 6 readings of Vf andVc up to 100% (full right).
-6. Repeat this process with the AC signal frequency set to 2 kHz, 5kHz, 10 kHz, 20 kHz, 50 kHz, and 100 kHz.
-7. For each of the frequencies, plot of graph of Vp vs.Vc.
+## Introduction and Aim
+This experiment explores the behaviour of a simple RC (Resistor-Capacitor) circuit and 
+understand its response to changes in input voltage. To achieve this, we will use a linear 
+potentiometer as a variable resistor in the circuit.
+A potentiometer, oBen referred to as a pot, is a three-terminal resistor with an adjustable tap 
+that allows us to change the resistance value along its length. In this experiment, we will utilize 
+a linear poten@ometer to vary the resistance in the RC circuit. By adjusting the potentiometer, 
+we can control the rate at which the capacitor charges and discharges, thus influencing the 
+time constant and the behaviour of the circuit.
+
    
 ## Circuit Diagram
 The circuit diagram is created in Multisim.
-![Circuit Diagram](../Lab_picture/Lab1_part1_circuit_diagram.png "Circuit Diagram")
+<div style="text-align: center;">
+    <img src="../Lab_picture/Lab1_part1_circuit_diagram.png" alt="Signal Diagram" width="400" />
+</div>
+
 
 ## Data_Table 
 |  kHZ| Potentiometer perc | Vp    |Vc   |Vp/Vc|
