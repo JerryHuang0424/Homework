@@ -12,8 +12,9 @@ import BWO_CPO_combine_SecdStage
 import BWO_MGO_combine_firstStage
 import BWO_DO_combine_SecdStage
 import BWO_DO_combine_firstStage
+import BWO_DO_combine_BestPos
 import BWO_DO_CPO_combine
-import  BWO_BestPos
+import BWO_BestPos
 
 
 ''' --------------------------- 参数设置 ----------------------------------'''
@@ -52,7 +53,7 @@ for i in range(time_itera):
     # useTime_arr[i] = x.endTime - begin_time
 
     begin_time2 = time.time()
-    x = BWO_DO_combine_firstStage.BWO(fobj, lb, ub, dim, SearchAgents_no, Max_iteration)
+    x = BWO_DO_CPO_combine.BWO(fobj, lb, ub, dim, SearchAgents_no, Max_iteration)
     best_arr_DOBWO[i] = x.best
     best_time_DOBWO[i] = x.bestTime
     usetime_DOBWO[i] = x.endTime - begin_time2

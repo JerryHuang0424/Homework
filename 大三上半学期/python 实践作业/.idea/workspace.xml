@@ -31,35 +31,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.BWO.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BWO_DO_combine_SecdStage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BWO_DO_combine_firstStage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BWO_MGO_combine_firstStage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BWO_advance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DO_BWO.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_BWO.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JerryHuang/作业/大三上半学期/python 实践作业&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.BWO.executor": "Run",
+    "Python.BWO_DO_combine_SecdStage.executor": "Run",
+    "Python.BWO_DO_combine_firstStage.executor": "Run",
+    "Python.BWO_MGO_combine_firstStage.executor": "Run",
+    "Python.BWO_advance.executor": "Run",
+    "Python.DO_BWO.executor": "Run",
+    "Python.Main_BWO.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/JerryHuang/作业/大三上半学期/python 实践作业",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,6 +88,8 @@
       <workItem from="1734852103505" duration="156000" />
       <workItem from="1734852508276" duration="1154000" />
       <workItem from="1734951769172" duration="434000" />
+      <workItem from="1735001302215" duration="7336000" />
+      <workItem from="1735010238875" duration="354000" />
     </task>
     <servers />
   </component>
@@ -114,7 +116,7 @@
     <SUITE FILE_PATH="coverage/python_$main.coverage" NAME="main 覆盖结果" MODIFIED="1734404430420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DO_GWC" />
     <SUITE FILE_PATH="coverage/python_$DO_BWO.coverage" NAME="DO_BWO 覆盖结果" MODIFIED="1734520109442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
     <SUITE FILE_PATH="coverage/python_$BWO_DO_combine_SecdStage.coverage" NAME="BWO_DO_combine_SecdStage 覆盖结果" MODIFIED="1734768569868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
-    <SUITE FILE_PATH="coverage/python_$Main_BWO.coverage" NAME="Main_BWO 覆盖结果" MODIFIED="1734852860274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
+    <SUITE FILE_PATH="coverage/python_$Main_BWO.coverage" NAME="Main_BWO 覆盖结果" MODIFIED="1735010470225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
     <SUITE FILE_PATH="coverage/python_$BWO_DO_combine_firstStage.coverage" NAME="BWO_DO_combine_firstStage 覆盖结果" MODIFIED="1734764180060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
     <SUITE FILE_PATH="coverage/python_$BWO_MGO_combine_firstStage.coverage" NAME="BWO_MGO_combine_firstStage 覆盖结果" MODIFIED="1734849183393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BWO代码" />
   </component>
