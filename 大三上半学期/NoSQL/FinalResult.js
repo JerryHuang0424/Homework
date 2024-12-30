@@ -126,7 +126,7 @@ db.Students.insertMany([
 
     {
         _id : ObjectId('676817fdcf2448bbf451c5d5'),
-        "FirtName":"Wisdom",
+        "FirstName":"Wisdom",
         "LastName":"Guo",
         "Email":"WG003@setu.ie",
         "PhoneNumber":"300003",
